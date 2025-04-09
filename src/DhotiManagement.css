@@ -1,0 +1,59 @@
+.dhoti-management-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.produce-dhoti-section {
+    margin-bottom: 20px;
+}
+
+.produce-dhoti-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.produce-dhoti-form select,
+.produce-dhoti-form input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.produce-button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.produce-button:hover {
+    background-color: #0056b3;
+}
+
+.dhoti-inventory-section .dhoti-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dhoti-inventory-section .dhoti-table thead {
+    background-color: #f0f0f0;
+}
+
+.dhoti-inventory-section .dhoti-table th,
+.dhoti-inventory-section .dhoti-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}

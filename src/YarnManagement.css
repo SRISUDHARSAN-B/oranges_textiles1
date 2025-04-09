@@ -1,0 +1,58 @@
+.yarn-management-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.yarn-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.yarn-table thead {
+    background-color: #f0f0f0;
+}
+
+.yarn-table th, .yarn-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.add-yarn-section {
+    margin-top: 15px;
+}
+
+.add-yarn-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.add-yarn-form input,
+.add-yarn-form select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
